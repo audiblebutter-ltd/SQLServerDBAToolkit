@@ -1,4 +1,4 @@
-```sql
+sql
 SELECT
     j.name                                      AS [Job Name],
     CASE j.enabled WHEN 1 THEN 'Yes' ELSE 'No' END
